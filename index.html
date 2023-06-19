@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="nav flex">
+            <div class="heading">
+                <h1><strong>Dojonary</strong></h1>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="login">
+                <button class="logbutton" onclick="logOut(this)">Login</button>
+            </div>
+        </div>
+        <div class="colcontain flex">
+            <div class="leftcol">
+                <div class="ninone flex">
+                    <div class="title">
+                        <div class="entry">
+                            <h1 class="ninja"><strong>ninja</strong></h1>
+                            <h3><em><strong>noun</strong></em></h3>
+                            <h4>Plural: <em>ninjas</em></h4>
+                        </div>
+                        <div class="like"> 
+                            <button class="likebutton" onclick="popUp()">13 Likes </button>
+                        </div>
+                    </div>
+                    <div class="defi">
+                        <p>A practitioner skilled in the Japanese art 
+                            <br>of ninjutsu</p>
+                    </div>
+                </div>
+                <div class="nintwo flex">
+                    <div class="title">
+                        <div class="entry">
+                            <h1 class="ninja"><strong>ninja</strong></h1>
+                            <h3><em><strong>noun</strong></em></h3>
+                            <h4>Plural: <em>ninjas</em></h4>
+                        </div>
+                        <div class="like"> 
+                            <button class="likebutton" onclick="popUp()"> 37 Likes </button>
+                        </div>
+                    </div>
+                    <div class="defi">
+                        <p>A programmer who breaks down problems with       <br> zen-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightcol">
+                <div class="defcol">
+                    <div class="blurb">
+                        <p>Dojonary is defined by <strong>YOU
+                        </strong></p>
+                    </div>
+                    <div class="defbutt"> <button class="addef" onclick="hide(this)"> Add Definition</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

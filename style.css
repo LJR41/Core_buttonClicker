@@ -1,0 +1,108 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    background-color: grey;
+    width: 60rem;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav{
+    background-color: rgb(129, 129, 129);
+    min-height: 75px;
+    justify-content: space-around;
+    
+}
+
+.colcontain{
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+}
+
+.leftcol{
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+}
+
+
+input{
+    margin: 0px 25px;
+}
+
+.logbutton{
+    background-color: rgb(40, 84, 226);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 25px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.ninone, .nintwo{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    min-height: 200px;
+    min-width: 200px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.title{
+    margin:0px 10px;
+}
+
+.defi{
+    margin: 0px 10px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.ninja{
+    margin-left: 6px;
+}
+
+.rightcol{
+    align-self: flex-start;
+    margin-top: 15px;
+}
+
+.defcol{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.blurb{
+    margin: 0px 15px;
+}
+
+.likebutton{
+    background-color: rgb(40, 84, 226);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 25px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 10px;
+}
+
+.addef{
+    background-color: rgb(40, 84, 226);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 25px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.defbutt{
+    margin-left: 45px;
+}
